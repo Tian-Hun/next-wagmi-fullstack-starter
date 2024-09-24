@@ -1,0 +1,18 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "indent": ["error", 4,
+        {
+            "SwitchCase": 1
+        }
+    ],
+    "semi": ["error", "always"],
+    "import/no-anonymous-default-export": [2, {"allowArrowFunction": true}],
+    "jsx-quotes": ["error", "prefer-double"],
+    "react/jsx-indent-props": ["error", 4],
+    "react/jsx-no-undef": [2, { "allowGlobals": true }],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off"
+  },
+  "ignorePatterns": ["app/hooks/wagmiHooks.ts"]
+}

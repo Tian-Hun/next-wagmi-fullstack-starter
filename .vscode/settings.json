@@ -1,0 +1,13 @@
+{
+  "prettier.enable": false,
+  "stylelint.snippet": ["css", "scss", "postcss"],
+  "stylelint.validate": ["css", "scss", "postcss"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "files.associations": {
+    "*.css": "css"
+  },
+  "editor.formatOnSave": false,
+}

@@ -1,0 +1,6 @@
+@import '@unocss/reset/tailwind.css';
+@import '@radix-ui/themes/styles.css';
+
+@unocss all;
+
+@import './theme.css';
