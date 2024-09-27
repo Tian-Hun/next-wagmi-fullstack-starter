@@ -14,5 +14,8 @@
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off"
   },
-  "ignorePatterns": ["app/hooks/wagmiHooks.ts"]
+  "ignorePatterns": [
+    "app/hooks/wagmiHooks.ts",
+    "app/components/ui/*.tsx"
+  ]
 }
